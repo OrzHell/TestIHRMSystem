@@ -21,3 +21,4 @@ with open(ihrm_report_path, 'wb') as f:
     # 使用实例化的htmltestrunner运行测试套件
     runner.run(suite)
 
+print("更改输出语句，然后查看是否会自动触发轮训构建")
